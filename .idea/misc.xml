@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/vinicius.csantana/Downloads/ProjetoAndroid/MyApp/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/vinicius.csantana/Downloads/ProjetoAndroid/MyApp/app/src/main/res/drawable/ic_baseline_email.xml" value="0.1455" />
+        <entry key="..\:/Users/vinicius.csantana/Downloads/ProjetoAndroid/MyApp/app/src/main/res/drawable/ic_baseline_lock.xml" value="0.1455" />
+        <entry key="..\:/Users/vinicius.csantana/Downloads/ProjetoAndroid/MyApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_baseline_email"
-            android:hint="Insira o nome de usuário"
+            android:hint="@string/insira_o_nome_de_usu_rio"
             android:inputType="text"
             android:maxLength="100"
             android:padding="10sp"
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
             android:drawableRight="@drawable/ic_baseline_lock"
-            android:hint="Insira sua senha"
+            android:hint="@string/insira_sua_senha"
             android:inputType="textPassword"
             android:maxLength="50"
             android:padding="10sp"
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
-                android:text="Entrar"
+                android:text="@string/entrar"
                 android:textAllCaps="false" />
 
             <Button
@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
-                android:text="Sair" />
+                android:text="@string/sair" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

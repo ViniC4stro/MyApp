@@ -6,44 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
 
-    <TextView
-        android:id="@+id/txtTextoA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Texto A"
-        android:textColor="#EC291B"
-        android:textSize="40sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/txtTextoB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/txtTextoA"
-        android:text="Texto B"
-        android:textColor="#673AB7"
-        android:textSize="40sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/txtTextoC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtTextoA"
-        android:text="Texto C"
-        android:textColor="#C52ADF"
-        android:textSize="40sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/txtTextoD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtTextoB"
-        android:layout_toRightOf="@+id/txtTextoC"
-        android:text="Texto D"
-        android:textColor="#E40C56"
-        android:textSize="40sp"
-        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/corinthians" />
 
 </RelativeLayout>
